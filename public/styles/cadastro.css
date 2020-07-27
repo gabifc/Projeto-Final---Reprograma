@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body {
+    background-color: #f0f0f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fcfcdf;
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    background: #fcfcdf;
+}
+
+header a {
+   color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    text-decoration: none;
+    background: #fcfcdf;
+}
+
+header span {
+    background-image: url("../assets/icones/arrow-left.svg");
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-right: 16px;
+    height: 24px;
+    background-color: #fcfcdf;
+}
+
+
+form {
+    background-color: white;
+    margin: 40px 80px 0 80px;
+    padding: 64px;
+    border-radius: 8px;
+    max-width: 730 px;
+    box-sizing: border-box;
+}
+
+.imgCadastro {
+    height: 75px;
+    width: 75px;
+}
+
+form h1 {
+    margin: 10px auto 30px auto;
+}
+
+form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2 {
+    font-size: 24px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+form .field-group {
+    display: flex;
+}
+
+.nomeCompleto input {
+    width: 100%;
+    max-width: 95%;
+}
+
+form input,
+form select {
+    border: 0;
+    border-radius: 8px;
+    background-color: #f0f0f5;
+    padding: 16px 24px;
+    font-size: 16 px;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    max-width: 700px;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+.itens-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.itens-grid li {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d0d0d6;
+    border-radius: 8px;
+    background-color: #f0f0f5;
+    padding: 25px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.itens-grid li img{
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+}
+
+.itens-grid li.selected {
+    background-color: #d0d0d6;
+    border: 2px solid #EB7D16;
+}
+
+.itens-grid li img,
+.itens-grid li span {
+    pointer-events: none;
+}
+
+
+.dadosCompra-grupo, 
+.dadosVendaLoja-grupo {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-around;
+}
+
+.dadosCompra-grupo input, 
+.dadosVendaLoja-grupo input {
+    width: 100%;
+    max-width: 100vw;
+}
+
+button {
+    background-color:#EB7D16;
+    width: 260px;
+    height: 56px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px ;
+    border: 0;
+    margin-top: 40px;
+    transition: background-color 400ms;
+}
+
+
+button:hover {
+    opacity: 90%;
+}
+

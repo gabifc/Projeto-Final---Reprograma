@@ -1,0 +1,142 @@
+* {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #f0f0f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fcfcdf;
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    background: #fcfcdf;
+}
+
+header a {
+   color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    text-decoration: none;
+    background: #fcfcdf;
+}
+
+header span {
+    background-image: url("../assets/icones/arrow-left.svg");
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-right: 16px;
+    height: 24px;
+    background-color: #fcfcdf;
+}
+h1 {
+    margin: 25px auto 15px auto;
+}
+
+main {
+    display:flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 35px;
+    margin: 20px 50px 20px 50px;
+    padding: 40px;
+}
+
+fieldset {
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form img {
+    height: 75px;
+    width: 75px;
+}
+
+form label {
+    padding: 8px;
+}
+
+form input {
+    border: 0;
+    border-radius: 8px;
+    background-color: #f0f0f5;
+    font-size: 16px;
+    width: 260px;
+    height: 40px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+    background-color: #EB7D16;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px ;
+    border: 0;
+    margin-top: 10px;
+    transition: 400ms;
+}
+
+form button:hover {
+    background-color: #f19c4c;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 35px;
+    margin: 20px 50px 20px 20px;
+    padding: 50px;
+}
+
+.imgCadastro {
+    height: 75px;
+    width: 75px;
+}
+
+button {
+    width: 260px;
+    height: 56px;
+    background-color: #EB7D16;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px ;
+    border: 0;
+    margin-top: 40px;
+    transition: 400ms;
+}
+
+button:hover {
+    opacity: 90%;
+}

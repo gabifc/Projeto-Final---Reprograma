@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fcfcdf;
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    background: #fcfcdf;
+}
+
+header a {
+   color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    text-decoration: none;
+    background: #fcfcdf;
+}
+
+header span {
+    background-image: url("../assets/icones/log-in.svg");
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-right: 16px;
+    height: 24px;
+}
+
+main {
+    display:flex;
+    justify-content: space-between;
+    background: white;
+}
+main .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 55px;
+    margin:0 0 0 150px;
+    
+}
+
+main p {
+    font-size: 25px;
+    line-height: 38px;
+    margin:24px 0 0 150px;
+    font-family: Roboto, sans-serif;
+
+}
+
+main img {
+    margin: 30px 150px 0 250px;
+}
+
+main button{
+    background: #EB7D16;
+    width: 350px;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    margin:20px 0 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+main button:hover {
+    opacity: 90%;
+}
+
+main button span {
+    width: 72px;
+    height: 72px;
+    background-color: #EB7D16;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main button span::after {
+    content:"";
+    background-image: url("../assets/icones/search.svg");
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+   padding: 15px 45px 0 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f0f0f5;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    line-height: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 8px;
+    margin-top: 2px;
+
+}
+
